@@ -10,10 +10,10 @@ public class QueueUsingArray{
             this.size = length;
         }
         public static boolean isEmpty(){
-            return rear == -1;
+            return rear == -1 ? true : false;
         }
         public static boolean isFull(){
-            return (rear == size-1);
+            return (rear == size-1) ? true : false;
         }
         public static void push(int data){
             if(isFull()){

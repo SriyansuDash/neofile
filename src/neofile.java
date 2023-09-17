@@ -5195,58 +5195,100 @@
 //     }
 // }
 
+// import java.util.*;
+// public class neofile{
+//     static class Queue{
+//         static int arr[];
+//         static int size;
+//         static int rear = -1;
+//         Queue(int length){
+//             arr = new int[length];
+//             this.size = length;
+//         }
+//         public static boolean isEmpty(){
+//             return rear == -1 ? true : false;
+//         }
+//         public static boolean isFull(){
+//             return (rear == size-1) ? true : false;
+//         } 
+//         public static void add(int data){
+//             if(isFull()){
+//                 System.out.println("Queue is full");
+//                 return;
+//             }
+//             rear ++;
+//             arr[rear] = data;
+//         }
+//         public static int remove(){
+//             if(isEmpty()) {
+//                 System.out.println("Queue is Empty");
+//                 return -1 ;
+//             }
+//             int front = arr[0];
+//             for(int i=0;i<rear;i++){
+//                 arr[i]=arr[i+1];
+//             }
+//             rear --;
+//             return front;
+//         }
+//         public static int show(){
+//             if(isEmpty()){
+//                 System.out.println("Queue is empty");
+//                 return -1;
+//             }
+//             return arr[0];
+//         }
+//     }
+//     public static void main(String[] args) {
+//         Queue q = new Queue(Short.MAX_VALUE);
+//         q.add(0);
+//         q.add(1);
+//         q.add(2);
+//         q.add(3);
+//         q.add(4);
+//         q.add(5);
+//         q.add(6);
+//         while(!q.isEmpty()){
+//             System.out.print(q.show()+" ");
+//             q.remove();
+//         }
+//     }
+// }
+
 
 import java.util.*;
 public class neofile{
     static class Queue{
         static int arr[];
         static int size ;
-        static int rear= -1;
+        static int rear =-1;
+        static int front =-1;
         Queue(int length){
             arr = new int[length];
             this.size = length;
         }
         public static boolean isEmpty(){
-            return rear ==-1 ? true : false;
+            return (front == -1 && rear==-1)?true:false;
         }
-        public static Boolean isFull(){
-            return rear == size-1 ?true : false;
+        public static boolean isFull(){
+            return (rear + 1)%size == front ? true : false;
         }
         public static void add(int data){
             if(isFull()){
-                System.out.println("Queue is empty");
-                return ;
+                System.out.println("\nOverflow\n");
+                return;
             }
-            rear++;
+            if(front == -1){
+                front = 0;
+            }
+            rear = (rear+1)%size;
             arr[rear] = data;
         }
         public static int remove(){
             if(isEmpty()){
                 System.out.println("Queue is empty");
-                return -1;
             }
-           int front = arr[0];
-            for(int i=0;i<rear;i++){
-                arr[i] = arr[i+1];
-            }
-            rear-- ;
-            return front;
-        }
-        public static int show(){
-            return arr[0];
-        }
-    }
-    public static void main(String[] args) {
-        Queue q = new Queue(Short.MAX_VALUE);
-        q.add(0);
-        q.add(1);
-        q.add(2);
-        q.add(3);
-        q.add(4);
-        q.add(5);
-        while(!q.isEmpty()){
-            System.out.println(q.show());
-            q.remove();
+
         }
     }
 }
