@@ -28,7 +28,7 @@ public class SelectionSort {
 }
 
 
-// package SortingAlgos;
+// package SortingAlgo;
 // import java.util.*;
 // public class SelectionSort{
 //     public static void printDetails(int arr[]){

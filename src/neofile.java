@@ -5340,24 +5340,264 @@
 //     }
 // }
 
-import java.util.*;
-public class neofile{
+// import java.util.*;
+// public class neofile{
+//     public static void main(String[] args) {
+//         Scanner in = new Scanner (System.in);
+//         System.out.println("Enter the size of Array : ");
+//         int n = in.nextInt();
+//         int arr[] = new int[n];
+//         // input Array 
+//         for (int i=0;i<n;i++){
+//             arr[i] =  in.nextInt();
+//         }
+//         System.out.println("enter k postion : ");
+//         int k = in.nextInt();
+//         for(int i=k;i<n;i++){
+//             System.out.println(arr[i]);
+//         }
+//         for(int i=0;i<k;i++){
+//             System.out.println(arr[i]);
+//         }
+//     }
+// }
+
+// import java.util.*;
+// public class neofile{
+//     public static int convert(int n){
+//         int c=count(n);
+//         String s="";
+//         while(n>15){
+//             int r=n%16;
+//             if(r>=10){
+//                 String ch=give(r);
+//                 s+=ch;
+//             }
+//             else{
+//                 s+=r;
+//             }
+//             n/=16;
+            
+//         }
+//         if(n>=10){
+//             String s2=give(n);
+//             s+=s2;
+
+//         }
+//         else{
+//             s+=n;
+//         }
+//         String s3=rev(s);
+//         int i=Integer.parseInt(s3);
+//         return i;
+//     }   
+    
+//     public static String rev(String s){
+//         String s2="";
+//         for(int i=s.length()-1;i>=0;i--){
+//             s2+=s.charAt(i);
+//         }
+//         return s2;
+//     }
+//     public static String give(int n){
+//         String ch="";
+//         switch(n){
+//             case 10: ch="A";break;
+//             case 11:ch="B";break;
+//             case 12:ch="C";break;
+//             case 13:ch="D";break;
+//             case 14:ch="E";break;
+//             case 15:ch="F";break;
+//             default: ch="";break;
+//         }
+//         return ch;
+//     }
+//     public static int count(int n){
+//         int c=0;
+//         while(n>0){
+//             c++;
+//             n/=10;
+//         }
+//         return c;
+//     }
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner (System.in);
+// System.out.println("Enter a number ");
+//             int n=sc.nextInt();
+//             System.out.println(convert(n));
+
+//     }
+// }
+
+
+// import java.util.*;
+// public class neofile{
+//     public static void main(String[] args) {
+//         Scanner in = new Scanner (System.in);
+//         System.out.print("Enter the size of Array : ");
+//         int n = in.nextInt();
+//         int arr[] = new int[n];
+//         System.out.println("Enter elements to the array");
+//         for(int i=0;i<arr.length;i++){
+//             arr[i] = in.nextInt();
+//         }
+//         // Bubble sort
+//         for(int i=0;i<arr.length-1;i++){
+//             for(int j=0;j<arr.length-i-1;j++){
+//                 if(arr[j]>arr[j+1]){
+//                     int temp = arr[j];
+//                     arr[j] = arr[j+1];
+//                     arr[j+1] = temp;
+//                 }
+//             }
+//         }
+//         System.out.println();
+//         System.out.println("After bubble sort ");
+//         for(int i=0;i<arr.length;i++){
+//             System.out.println(arr[i]+" ");
+//         }
+//         System.out.println();
+//     }
+// }
+
+// import java.util.*;
+// public class neofile{
+    
+//     public static void main(String[] args) {
+//         Scanner in = new Scanner (System.in);
+//         System.out.print("Enter the size of Array ");
+//         int n = in.nextInt();
+//         int arr[] = new int[n];
+//         System.out.println("Enter the elements of Array ");
+//         for(int i = 0;i<arr.length;i++){
+//             arr[i] = in.nextInt();
+//         }
+
+//         //insertion shorting 
+//         for(int i=1;i<arr.length;i++){
+//             int current = arr[i];
+//             int j = i-1;
+//             while(j>=0 && current >arr[i]){
+//                 arr[j+1] = arr[j];
+//                 j--;
+//             }
+//             arr[j+1] = current;
+//         }  for(int i=0;i<arr.length;i++){
+//             System.out.println(arr[i]+ " ");
+//         }
+//         System.out.println();
+       
+//     }
+// }
+
+// import java.util.*;
+// public class neofile{
+//     public static void main(String[] args) {
+//         Scanner in = new Scanner(System.in);
+//         int n = in.nextInt();
+//         System.out.print("Enter the size of Array : ");
+//         int arr[] = new int[n];
+//         for(int i=0;i<arr.length;i++){
+//             arr[i] = in.nextInt();
+//         }
+//         for(int i=0;i<arr.length-1;i++){
+//             int smallest = i;
+//             for(int j=i+1;j<arr.length;j++){
+//                 if(arr[smallest]>arr[j]){
+//                     int temp = arr[smallest];
+//                     arr[smallest] = arr[j];
+//                     arr[j] = temp;
+//                 }
+//             }
+//         }
+//         for(int i=0;i<arr.length;i++){
+//             System.out.print(arr[i]+" ");
+//         }
+//         System.out.println();
+//     }
+// }
+
+// import java.util.*;
+// public class neofile{
+//     public static void printArray(int arr[]){
+//         for(int i=0;i<arr.length;i++){
+//             System.out.print(arr[i]+" ");
+//         }
+//         System.out.println();
+//     }
+//     public static void main(String[] args) {
+//         Scanner in = new Scanner (System.in);
+//         System.out.print("Enter the size of the Array : ");
+//         int n = in.nextInt();
+//         int arr[] = new int[n];
+//         System.out.println("Enter the elements of Array : ");
+//         for(int i=0;i<arr.length;i++){
+//             arr[i] = in.nextInt();
+//         }
+//         for(int i=0;i<arr.length;i++){
+//             int current = arr[i];
+//             int j = i-1;
+//             while(j>=0 && current <arr[j]){
+//                 arr[j+1] = arr[j];
+//                 j--;
+//             }
+//             arr[j+1] = current;
+//         }
+//         printArray(arr);
+//     }
+// }
+
+
+// import java.util.*;
+// public class neofile{
+//     public static void main(String[] args) {
+//         Scanner in = new Scanner (System.in);
+//         System.out.print("Enter the size of Array : ");
+//         int n = in.nextInt();
+//         int arr[] = new int[n];
+//         System.out.println("Enter the elements of array");
+//         for(int i=0;i<arr.length;i++){
+//             arr[i] = in.nextInt();
+//         }
+//         for(int i=0;i<arr.length-1;i++){
+//             int smallest = i;
+//             for(int j=i+1;j<arr.length;j++){
+//                 if(arr[smallest]>arr[j]){
+//                     int temp = arr[smallest];
+//                     arr[smallest] = arr[j];
+//                     arr[j] = temp ;
+//                 }
+//             }
+//         }
+//         for(int i=0;i<arr.length;i++){
+//             System.out.print(arr[i]+" ");
+//         }
+//         System.out.println();
+//     }
+// }
+
+
+
+// Write a tower of haoin code in java ?
+import java.util.Scanner;
+
+public class neofile {
     public static void main(String[] args) {
-        Scanner in = new Scanner (System.in);
-        System.out.println("Enter the size of Array : ");
-        int n = in.nextInt();
-        int arr[] = new int[n];
-        // input Array 
-        for (int i=0;i<n;i++){
-            arr[i] =  in.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number of disks: ");
+        int n = scanner.nextInt();
+        scanner.close();
+        towerOfHanoi(n, 'A', 'C', 'B');
+    }
+
+    public static void towerOfHanoi(int n, char from, char to, char aux) {
+        if (n == 1) {
+            System.out.println("Move disk 1 from " + from + " to " + to);
+            return;
         }
-        System.out.println("enter k postion : ");
-        int k = in.nextInt();
-        for(int i=k;i<n;i++){
-            System.out.println(arr[i]);
-        }
-        for(int i=0;i<k;i++){
-            System.out.println(arr[i]);
-        }
+        towerOfHanoi(n - 1, from, aux, to);
+        System.out.println("Move disk " + n + " from " + from + " to " + to);
+        towerOfHanoi(n - 1, aux, to, from);
     }
 }
+// ?
