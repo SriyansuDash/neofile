@@ -5577,27 +5577,3 @@
 // }
 
 
-
-// Write a tower of haoin code in java ?
-import java.util.Scanner;
-
-public class neofile {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the number of disks: ");
-        int n = scanner.nextInt();
-        scanner.close();
-        towerOfHanoi(n, 'A', 'C', 'B');
-    }
-
-    public static void towerOfHanoi(int n, char from, char to, char aux) {
-        if (n == 1) {
-            System.out.println("Move disk 1 from " + from + " to " + to);
-            return;
-        }
-        towerOfHanoi(n - 1, from, aux, to);
-        System.out.println("Move disk " + n + " from " + from + " to " + to);
-        towerOfHanoi(n - 1, aux, to, from);
-    }
-}
-// ?
