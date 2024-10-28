@@ -33,7 +33,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static Node main(String...args){
@@ -69,7 +68,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static Node main(String[] args) {
@@ -95,7 +93,6 @@
 
 //     }
 // }
-
 
 // public class neofile{
 // static Node display(int x ){
@@ -149,7 +146,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static Node main(String[] args) {
@@ -181,7 +177,6 @@
 //     System.out.println("the max element is "+max+" "+"occururs "+mxc+" times"+" and first occurance is "+fma);
 //     System.out.println("the min element is "+min+" "+"occurs "+mic+" times"+" and last occurance is "+lmi);
 //     }}
-
 
 // import java.util.*;
 // public class neofile{
@@ -276,7 +271,6 @@
 //     }
 // }
 
-
 // abstract class s{
 //     int a = 3;
 //     int b= 2;
@@ -298,7 +292,6 @@
 //     }
 // }
 
-
 // abstract class a {
 //     Scanner in = new Scanner (System.in);
 //     int a = in.nextInt();
@@ -316,7 +309,6 @@
 //         obj.display();
 //     }
 // }
-
 
 // import  java.util.*;
 // public class neofile{
@@ -336,8 +328,6 @@
 //     }
 // }
 
-
-
 // import java.util.*;
 // public class neofile{
 //     public static Node main(String[] args) {
@@ -351,7 +341,6 @@
 //         System.out.println("Sum of the elements is "+sum);
 //     }
 // }
-
 
 // import java.util.*;
 // public class neofile{
@@ -380,7 +369,6 @@
 //         }
 //     }
 // }
-
 
 // abstract class c1 {
 //     int a = 33;
@@ -422,7 +410,6 @@
 //        c3.display(5, 6);
 //     }
 // }
-
 
 // import java.util.*;
 // abstract class ne{
@@ -472,7 +459,6 @@
 //         j.getSalary();
 //     }
 // }
-
 
 // import java.util.*;
 // class Employee {
@@ -591,7 +577,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //   public static Node main(String[] args) {
@@ -609,7 +594,6 @@
 //    }
 //   }
 // }
-
 
 // import java.util.*;
 // public class neofile{
@@ -664,7 +648,6 @@
 //   }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //   public static Node main(String[] args) {
@@ -680,7 +663,6 @@
 //    System.out.println("Not found");
 //   }
 // }
-
 
 // import java.util.*;
 // public class neofile{
@@ -701,8 +683,6 @@
 //     System.out.println("Second maximum element is "+max2);
 //   }
 // }
-
-
 
 // import java.util.*;
 // class emp{
@@ -736,8 +716,6 @@
 //         e2.empid = emp.getempid(e2.empid);
 //     }
 // }
-
-
 
 // import java.util.*;
 // class emp{
@@ -823,7 +801,6 @@
 //         System.out.println("The age of sriyanshu is "+e1.age());
 //     }
 // }
-
 
 // import java.util.*;
 // class Student {
@@ -922,7 +899,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // class Base{
 //     int x ;
@@ -955,7 +931,6 @@
 //         System.out.println(d.gety());
 //     }
 // }
-
 
 // import java.util.*;
 // class Student {
@@ -1074,7 +1049,7 @@
 //         System.out.println("This is cylinder parameterized constructor ");
 //         this.height = h;
 //     }
-   
+
 //     double volume(){
 //         return Math.PI*radius*radius;
 //     }
@@ -1125,7 +1100,6 @@
 //         System.out.println("Area of the Cylinder is "+obj.display());
 //     }
 // }
-
 
 // import java.util.*;
 // //import CWH_JAVA.Abstract;
@@ -1207,7 +1181,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static Node main(String[] args) {
@@ -1249,8 +1222,6 @@
 //     }
 // }
 
-
-
 // import java.util.*;
 // public class neofile{
 //     public static int sum_Of_Digits(int n){
@@ -1261,7 +1232,7 @@
 //             n/=10;
 //         }
 //         n=sum;
-        
+
 //         while(n<9 && n>0){
 //             int rem = n%10;
 //             sum+=rem;
@@ -1401,7 +1372,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static Node main(String[] args) {
@@ -1481,7 +1451,7 @@
 //         this.roll = r;
 //         Scanner in = new Scanner (System.in);
 //         System.out.print("Enter the roll number of "+name+" : ");
-      
+
 //     }
 //     public int setroll(){
 //         return roll;
@@ -1521,7 +1491,6 @@
 //     }
 //} 
 
-
 // import java.util.*;
 // public class neofile {
 
@@ -1541,8 +1510,6 @@
 // 	}
 
 // }
-
-
 
 // import java.util.*;
 // class Student{
@@ -1611,11 +1578,9 @@
 //         printing(b);
 //         Boolean c[]={true,false};
 //         printing(c);
-    
 
 //     }
 //     }
-
 
 // interface Sriyansu{
 // Node buysupra();
@@ -1663,7 +1628,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // class Complex{
 //     int real ;
@@ -1693,7 +1657,7 @@
 //         c2.setdata();
 //         Complex c = c2.add(c1,c2);
 //         c.display();
-        
+
 //     }
 // // }
 // import java.util.*;
@@ -1751,7 +1715,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static int sum_Of_Digits(int a){
@@ -1774,7 +1737,6 @@
 //         System.out.println("Sum of the digits is "+sum_Of_Digits(a));
 //     }
 // }
-
 
 // import java.util.*;
 // public class neofile{
@@ -1816,7 +1778,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static double sumColoumn(int [][] m ,int coloumnindex){
@@ -1851,7 +1812,6 @@
 //         }
 //     }
 // }
-
 
 // import java.util.*;
 // public class neofile{
@@ -1978,7 +1938,6 @@
 //         c1.Display();
 //     }
 
-
 // import java.util.*;
 // class Node{
 //     protected int reg_num;
@@ -2056,7 +2015,6 @@
 //         System.out.println(cars);
 //     }
 //}
-
 
 // import java.util.*;
 // public class neofile{
@@ -2139,8 +2097,6 @@
 //         }
 //     }
 
-
-
 // import java.util.*;
 // class Student{
 //     String name ;
@@ -2168,7 +2124,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static Node main(String[] args) {
@@ -2192,7 +2147,6 @@
 //         }
 //     }
 // }
-
 
 // import java.util.*;
 // class Node{
@@ -2257,7 +2211,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static long fact(Long a){
@@ -2298,8 +2251,6 @@
 //     }
 // }
 
-
-
 // import java.util.*;
 // public class neofile{
 //     public static int reverse(int n , int rev){
@@ -2307,7 +2258,7 @@
 //         return rev;
 //         else
 //             return reverse(n/10, rev = (rev*10)+(n%10));
-       
+
 //     }
 //     public static Node main(String[] args) {
 //         Scanner in = new Scanner (System.in);
@@ -2331,7 +2282,6 @@
 
 // 	}
 // }
-
 
 // import java.util.*;
 // public class neofile {
@@ -2416,7 +2366,6 @@
 //     }
 // }
 
-  
 // public class neofile {
 //     public static int binarySearch(int[] arr, int target) {
 //         return binarySearchRecursive(arr, target, 0, arr.length - 1);
@@ -2451,7 +2400,6 @@
 //         }
 //     }
 // }
-
 
 // import java.util.*;
 // class Node
@@ -2809,7 +2757,6 @@
 // 	}
 // }
 
-
 // import java.util.Scanner;
 // class Node
 // {
@@ -2887,7 +2834,6 @@
 // 		}
 // 	}
 // }
-
 
 // import java.util.*;
 // public class neofile
@@ -3013,7 +2959,6 @@
 // 	}
 // }
 
-
 // import java.util.*;
 // class Node{
 // 	protected int reg_num;
@@ -3047,7 +2992,7 @@
 // 		}while(ch=='Y'|| ch=='y');
 // 	}
 // 	public static Node display(Node start){
-		
+
 // 	}
 // 	public static Node InsBeg(Node start){
 // 		Scanner in = new Scanner (System.in);
@@ -3123,7 +3068,7 @@
 // 			System.out.println("Marks : "+temp.mark);
 // 			temp = temp.next;
 // 		}
-	
+
 // 	}
 // 	public static Node insbeg(Node start){
 // 		Scanner in = new Scanner (System.in);
@@ -3140,7 +3085,7 @@
 // 			start = newNode;
 // 		}
 // 		return start;
-		
+
 // 	}
 // 	public static Node InsLast(Node start){
 // 		Scanner in = new Scanner (System.in);
@@ -3225,7 +3170,7 @@
 // 		}
 // 	}
 // 	public static Node main(String[] args) {
-		
+
 // 	}
 // // }
 
@@ -3442,14 +3387,14 @@
 // 					tail = tail.next;
 // 				}
 // 				tail.next= newnode;
-				
+
 // 			}
 // 			System.out.println("Do you want to add more");
 // 			ch = sc.next().charAt(0);
-			
+
 // 		}while(ch == 'y');
 // 		return List;
-		
+
 // 	}
 // 	public static neofile insertFirst(neofile List, int num)
 // 	{
@@ -3462,13 +3407,13 @@
 //         {
 //         	newnode.next = List.head;
 //         	List.head = newnode;
-        	
+
 //         }
 // 		return List;
 // 	}
 // 	public static neofile delFirst(neofile List)
 // 	{
-        
+
 //         if(List.head == null)
 //         {
 //         	System.out.println("Deletion is not possible as List is Empty");
@@ -3496,7 +3441,7 @@
 // 				tail = tail.next;
 // 			}
 // 			tail.next= newnode;
-        	
+
 //         }
 // 		return List;
 // 	}
@@ -3523,7 +3468,7 @@
 // 	}
 // 	public static neofile insertAtAnyPos(neofile List, int num, int pos)
 // 	{
-        
+
 // 		int nodecount = 0;
 // 		snode tail = List.head;
 // 		while(tail != null)
@@ -3540,7 +3485,7 @@
 // 		if( pos == 1)
 // 		{
 //         	List.head = newnode;
-        	
+
 //         }
 //         else
 //         {
@@ -3557,7 +3502,7 @@
 // 			newnode.next = temp;
 // 		}
 // 		return List;
-		
+
 // 	}
 // 	public static neofile delAtAnyPos(neofile List, int pos)
 // 	{
@@ -3599,7 +3544,7 @@
 //         }
 // 		return List;
 // 	}
-	
+
 // 	static Node display(neofile List)
 // 	{
 // 		snode temp = List.head;
@@ -3638,7 +3583,7 @@
 // 	}
 // 	static neofile sort(neofile List)
 // 	{
-		
+
 // 		int nodecount = 0;
 // 		snode temp = List.head;
 // 		while(temp != null)
@@ -3649,11 +3594,11 @@
 // 		if(nodecount == 0)
 // 		{
 // 			System.out.println("Link list is Empty, so sorting is not possible");
-			
+
 // 		}
 // 		else 
 // 		{
-			
+
 // 			for(int i=0;  i < nodecount;  i++)
 // 			{
 // 			   	snode itemp = List.head;
@@ -3669,7 +3614,7 @@
 // 				    jtemp=jtemp.next;
 // 				}
 // 			}
-			
+
 // 		}
 // 		return List;
 // 	}
@@ -3684,10 +3629,10 @@
 // 		}
 // 		return ctr;
 // 	}
-	
+
 // 	public static Node main(String[] args) 
 // 	{
-	
+
 // 		Scanner sc = new Scanner(System.in);
 // 		neofile list = new neofile();
 // 		int choice;
@@ -3759,7 +3704,7 @@
 // 		default: 
 // 			        System.out.println("Exit from Menu");
 // 			      	return;	
-		
+
 // 		 }
 // 		}while(choice <= 12);
 //     }
@@ -3831,7 +3776,6 @@
 //         }
 //     }
 // }
-
 
 // import java.util.*;
 // class Node{
@@ -4080,8 +4024,6 @@
 //     }
 // }
 
-
-
 // import java.util.*;
 // public class neofile{
 //     public static int MAX = 5;
@@ -4155,7 +4097,6 @@
 //         }
 //     }
 // }
-
 
 // import java.util.*;
 // public class neofile{
@@ -4243,7 +4184,7 @@
 //         while(temp != null){
 //             Node next = temp.next;
 //             temp.next = prev;
-            
+
 //             prev = temp;
 //             temp = next;
 //         }
@@ -4264,8 +4205,6 @@
 //         neo.printList();
 //     }
 // }
-
-
 
 // import java.util.*;
 // public class neofile{
@@ -4509,7 +4448,6 @@
 // 		s1.printDetails();
 // 	}
 // }
-
 
 // import java.util.*;
 
@@ -4816,7 +4754,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // class Node{
 //     String name;
@@ -4977,10 +4914,9 @@
 //         }
 //     }
 //     public static void main(String[] args) {
-        
+
 //     }
 // }
-
 
 // import java.util.*;
 // class Student{
@@ -5050,7 +4986,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     static ArrayList<Integer> list = new ArrayList<>();
@@ -5107,10 +5042,9 @@
 //             System.out.print(stk.peek()+" ");
 //             stk.pop();
 //         }
-        
+
 //     }
 // }
-
 
 // import java.util.*;
 // public class neofile{
@@ -5255,8 +5189,6 @@
 //     }
 // }
 
-
-
 // import java.util.*;
 // public class neofile{
 //     static class Queue{
@@ -5377,7 +5309,7 @@
 //                 s+=r;
 //             }
 //             n/=16;
-            
+
 //         }
 //         if(n>=10){
 //             String s2=give(n);
@@ -5391,7 +5323,7 @@
 //         int i=Integer.parseInt(s3);
 //         return i;
 //     }   
-    
+
 //     public static String rev(String s){
 //         String s2="";
 //         for(int i=s.length()-1;i>=0;i--){
@@ -5429,7 +5361,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static void main(String[] args) {
@@ -5462,7 +5393,7 @@
 
 // import java.util.*;
 // public class neofile{
-    
+
 //     public static void main(String[] args) {
 //         Scanner in = new Scanner (System.in);
 //         System.out.print("Enter the size of Array ");
@@ -5486,7 +5417,7 @@
 //             System.out.println(arr[i]+ " ");
 //         }
 //         System.out.println();
-       
+
 //     }
 // }
 
@@ -5547,7 +5478,6 @@
 //     }
 // }
 
-
 // import java.util.*;
 // public class neofile{
 //     public static void main(String[] args) {
@@ -5575,3 +5505,21 @@
 //         System.out.println();
 //     }
 // }
+
+import java.util.*;
+
+public class neofile {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the nth postion : ");
+        int n = sc.nextInt();
+        int first = 0, second = 1;
+        System.out.print(first + " " + second+" ");
+        for (int i = 0; i < n; i++) {
+            int next = first + second;
+            System.out.print(next + " ");
+            first = second;
+            second = next;
+        }
+    }
+}
